@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #FAEBD7;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Mi codigo */
+
+body{
+    overflow-x: hidden;
+}
+
+span, h5{
+  font-family: 'PT Serif', serif; 
+}
+
+@media only screen and (min-width: 780px) {
+  h5{
+    font-size: 25px;
+  /* font-family: 'PT Serif', serif;  */
+  }
+  span{
+    font-size: 21px;
+  }
+  .footer{
+    margin-top: 50px;
+    display: flex column;
+    justify-content: center; 
+  }
 }
