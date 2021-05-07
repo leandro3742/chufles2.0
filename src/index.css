@@ -19,14 +19,34 @@ body{
     overflow-x: hidden;
 }
 
-span, h5{
+span, h5, p{
   font-family: 'PT Serif', serif; 
 }
-
+p{
+  font-size: 15px;
+}
+.titulo{
+  font-size: 18px;
+  text-decoration: underline;
+}
+.lista{
+  font-family: 'PT Serif', serif; 
+}
 @media only screen and (min-width: 780px) {
+  .Requisitos{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .titulo{
+    font-size: 25px;
+  }
+  .lista{
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
   h5{
     font-size: 25px;
-  /* font-family: 'PT Serif', serif;  */
   }
   span{
     font-size: 21px;
