@@ -5,7 +5,7 @@ import Layout from './components/layout';
 import Nosotros from './pages/Nosotros';
 import MaterialTeorico from "./pages/MaterialTeorico"; 
 import Requisitos from "./pages/Requisitos";
-// import Examen from "../pages/Examen";
+import Examen from "./pages/Examen";
 // import Pruebas from "../pages/Pruebas";
 
 function App() {
@@ -17,6 +17,7 @@ function App() {
             <Route path="/" exact component={Nosotros} />
             <Route path="/materialTeorico" exact component={MaterialTeorico} />
             <Route path="/requisitos" exact component={Requisitos} />
+            <Route path="/examen" exact component={Examen} />
           </Switch>
         </Layout>
       </BrowserRouter>

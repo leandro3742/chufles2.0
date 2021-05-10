@@ -14,7 +14,7 @@ function Requisitos(){
                 <div className="d-flex flex-column">
                     <span className="mt-5 text-center titulo">Requisitos para sacar tu licencia por primera vez</span>
                     <div className="mt-2 d-flex flex-column align-items-center">
-                        <ol className="text-center">
+                        <ol>
                             <li className="lista text-secondary">No tener multas de transito sin pagar</li>
                             <li className="lista mt-1 text-secondary">No tener multas de transito sin pagar</li>
                             <li className="lista mt-1 text-secondary">Cedula de identidad vigente</li>
@@ -25,7 +25,7 @@ function Requisitos(){
                 <div className="d-flex flex-column">
                     <span className="mt-5 text-center titulo">Requisitos para sacar tu licencia profesional</span>
                     <div className="mt-2 d-flex flex-column align-items-center">
-                        <ol className="text-center">
+                        <ol>
                             <li className="lista text-secondary">No tener multas de transito sin pagar</li>
                             <li className="lista mt-1 text-secondary">No tener multas de transito sin pagar</li>
                             <li className="lista mt-1 text-secondary">Cedula de identidad vigente</li>
