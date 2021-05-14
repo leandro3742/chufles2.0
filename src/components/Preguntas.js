@@ -66,7 +66,7 @@ function Preguntas(){
                 <div className="d-flex justify-content-center">
                     <div className="d-flex flex-column align-items-center">
                         {mostrarRespuestas.map((elem, iterator)=>{ return( 
-                            <button onClick={()=>verificar(elem)} className="btn btn-primary btn-sm m-1">{elem}</button>
+                            <button onClick={()=>verificar(elem)} className="btn btn-primary m-1 border">{elem}</button>
                         )})}
                     </div>
                 </div>

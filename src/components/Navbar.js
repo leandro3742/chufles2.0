@@ -5,8 +5,8 @@ import logo from '../img/logo_chufles3.svg';
 function Navbar() {
 
   const style = {
-    width: '200px',
-    height: '50px',
+    // width: '250px',
+    // height: '50px',
   };
   
   const styleNavbar = {

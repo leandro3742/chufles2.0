@@ -3,7 +3,7 @@ import Carrousel from '../components/Carrousel';
 
 function Nosotros() {
     const styleContainer = {
-        marginTop: "100px"
+        paddingTop: "100px"
     }
   return (
     <div>

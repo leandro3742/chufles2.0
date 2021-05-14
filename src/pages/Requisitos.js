@@ -3,7 +3,7 @@ import Carrousel from '../components/Carrousel';
 
 function Requisitos(){
     const a = {
-        marginTop: "100px"
+        paddingTop: "100px"
     }
 
     return(

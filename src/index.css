@@ -13,8 +13,6 @@ code {
 }
 
 body{
-  /* background-color: #FCD0D0; */
-  background: linear-gradient(to top, #A9F1DF, #FFBBBB);
   overflow-x: hidden;
 }
 
@@ -36,6 +34,7 @@ a:hover{
 .lista{
   font-family: 'PT Serif', serif; 
 }
+
 @media only screen and (min-width: 780px) {
   .Requisitos{
     display: flex;
