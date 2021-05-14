@@ -19,13 +19,7 @@ function felicitaciones(){
         padding: '3em',
         background: `
             url(${gif})  
-        `,
-        // backdrop: `
-        //     url(${gif}) 
-        //     rgba(0,0,123,0.4)
-        //     left bottom
-        //     no-repeat
-        // `
+        `
     })
 }
 

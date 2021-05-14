@@ -1,7 +1,5 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import Carrousel from '../components/Carrousel';
-import Footer from '../components/Footer';
 
 function Nosotros() {
     const styleContainer = {
@@ -9,9 +7,7 @@ function Nosotros() {
     }
   return (
     <div>
-        {/* <Navbar /> */}
-        
-        <div style={styleContainer}>
+                <div style={styleContainer}>
             <Carrousel />
         </div>
         

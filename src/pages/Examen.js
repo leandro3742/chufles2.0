@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import swal from 'sweetalert';
 import Preguntas from '../components/Preguntas';
-
+import Footer from '../components/Footer';
 class USUARIO{
     constructor(CI, sexo, nombre){
         this.CI = CI;
@@ -94,10 +94,9 @@ function Examen(){
                 <span className="mb-2">Ingrese su cedula</span>
                 <input style={estiloInput} type="number" onChange={cedula} value={usuario}/>
                 <button type="button" className="btn btn-dark mt-2" onClick={()=>comprobar(usuario)}>Ingresar</button>
-            </div>
+            </div>            
         </div>  
-        
-        <div style={{marginTop: "150px"}}className={mostrarPreguntas}>
+        <div style={{marginTop: "50%"}} className={mostrarPreguntas}>
             <Preguntas usuario={usuario} />
         </div>
         </React.Fragment>

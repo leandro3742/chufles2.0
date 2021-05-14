@@ -14,7 +14,7 @@ function Footer(){
         marginTop: "5px"
     }
     return(
-        <div className="footer">
+        <div style={{marginTop: "100px", marginBottom: "10px"}} className="footer">
             <div className="d-flex justify-content-around align-items-center mt-3">
                 <div className="d-flex">
                     <img style={style} src={phone}/>

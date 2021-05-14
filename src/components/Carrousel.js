@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../logo.svg';
 import img1 from '../img/grande(1).jpg';
 import img2 from '../img/grande(2).jpg';
 import img3 from '../img/grande(4).jpg';
